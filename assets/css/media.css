@@ -1,0 +1,26 @@
+@media (max-width: 767.98px) {
+	.mobile { display: block; }
+	.desktop { display: none; }
+}
+
+@media (max-width: 575.98px) {
+	.bot-4 { padding-bottom: 6.5rem!important; }
+}
+
+@media print {
+	.pad-4, .bot-4 {
+		margin: 0!important;
+		padding: 2rem!important;
+	}
+	.container { max-width: 100%!important; }
+	.item-count { text-align: left!important; }
+	#navbar, #footer,
+	.btn-header, .input-group,
+	.handle-minus, .handle-plus,
+	.menu-hide {
+		display: none!important;
+	}
+	.dashboard #forPrint {
+		display: block!important;
+	}
+}
